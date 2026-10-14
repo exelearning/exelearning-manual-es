@@ -1,12 +1,12 @@
 # Manual de eXeLearning en español
 
-[![eXeLearning 4.0.5](https://img.shields.io/badge/eXeLearning-4.0.5-26ddc7?labelColor=1f2937)](https://exelearning.net)
+[![eXeLearning 4.0.6 en preparación](https://img.shields.io/badge/eXeLearning-4.0.6%20en%20preparación-26ddc7?labelColor=1f2937)](https://exelearning.net)
 [![GitHub Pages](https://github.com/exelearning/exelearning-manual-es/actions/workflows/exelearning-pages.yml/badge.svg)](https://github.com/exelearning/exelearning-manual-es/actions/workflows/exelearning-pages.yml)
 [![Edit in eXeLearning](https://img.shields.io/badge/Edit%20in-eXeLearning-26ddc7?labelColor=1f2937)](https://github.exelearning.dev/?repo=exelearning/exelearning-manual-es)
 [![Licencia: CC BY-SA 4.0](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey?labelColor=1f2937)](LICENSE)
 
 Manual de uso de [eXeLearning](https://exelearning.net), la herramienta libre y de código
-abierto para crear recursos educativos digitales. Documenta **eXeLearning 4.0.5**: qué es,
+abierto para crear recursos educativos digitales. Documenta **eXeLearning 4.0.6 (en preparación)**: qué es,
 cómo se instala, el entorno de trabajo, cada iDevice con su ejemplo y la descarga y publicación
 de los recursos. Lo elabora **Cedec** (INTEF) y está escrito con el propio eXeLearning.
 
@@ -15,6 +15,24 @@ de los recursos. Lo elabora **Cedec** (INTEF) y está escrito con el propio eXeL
 | Versión web, siempre al día con `main` | Edición en el navegador y guardado en GitHub | Último `.elpx` publicado, para abrirlo en eXeLearning |
 
 [![Manual de eXeLearning](.github/screenshot.jpg)](https://exelearning.github.io/exelearning-manual-es/)
+
+## Revisión para 4.0.6
+
+Esta copia incorpora funciones y correcciones ya integradas después de 4.0.5. A fecha de
+14/10/2026, el [registro oficial](https://github.com/exelearning/exelearning/blob/319b5d2b55ce38844b40cac2f937b37811c78efd/public/CHANGELOG.md)
+marca 4.0.6 como **sin publicar**. Se revisaron los 35 PR de la
+[comparación con 4.0.5](https://github.com/exelearning/exelearning/compare/v4.0.5...319b5d2b55ce38844b40cac2f937b37811c78efd).
+
+Se incorporan calificación y mínimos de aprobación (#2507), consulta pública (#1425),
+colaboración (#2433, #2434), exportación editable (#2417), avisos de archivos faltantes (#2403),
+vista previa (#2430, #2491), fórmulas (#2441), lightbox (#2512), juegos (#2492), fuentes
+tipográficas (#2486), recursos en subcarpetas (#2480) y descarga .elpx (#2506, #2489).
+Se excluyen cambios de dependencias, CI, pruebas y documentación técnica, y correcciones
+internas sin instrucciones nuevas para el usuario.
+
+Las capturas existentes conservan sus créditos y muestran 4.0.5; los textos aclaran los
+cambios de interfaz y los nombres nuevos que aún pueden aparecer en inglés. La imagen del
+exportador permanece fijada en 4.0.5 hasta que exista una imagen publicada de 4.0.6.
 
 ## Descargas
 
